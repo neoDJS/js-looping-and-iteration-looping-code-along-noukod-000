@@ -9,8 +9,13 @@ function printBadges(gifts) {
     return gifts;
 }
 
+function maybeTrue() {
+    return Math.random() >= 0.5;
+}
+
 function tailsNeverFails(gifts){
-  while (Math.random() >= 0.5) {
+  let countdown = 10;
+  while (maybeTrue()) {
     console.log('And I ran... I ran so far away!');
   }
 }
