@@ -10,4 +10,3 @@ function wrapGifts(gifts) {
 }
 
 function tailsNeverFails(){}
-wrapGifts(gifts);
