@@ -9,4 +9,5 @@ function wrapGifts(gifts) {
     return gifts;
 }
 
+function tailsNeverFails(){}
 wrapGifts(gifts);
