@@ -9,4 +9,8 @@ function printBadges(gifts) {
     return gifts;
 }
 
-function tailsNeverFails(gifts){}
+function tailsNeverFails(gifts){
+  while (Math.random() >= 0.5) {
+    console.log('And I ran... I ran so far away!');
+  }
+}
