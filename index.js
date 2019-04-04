@@ -16,6 +16,6 @@ function maybeTrue() {
 function tailsNeverFails(gifts){
   let count = 0;
   while (maybeTrue()) {
-    console.log('And I ran... I ran so far away!');
+    console.log('You got ${count} tails in a row!');
   }
 }
