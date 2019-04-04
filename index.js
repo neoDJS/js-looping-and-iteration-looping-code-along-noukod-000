@@ -1,7 +1,7 @@
 // Code your solutions in this file
 const gifts = ['teddy bear', 'drone', 'doll'];
 
-function wrapGifts(gifts) {
+function printBadges(gifts) {
     for (let i = 0; i < gifts.length; i++) {
         console.log(`Wrapped ${gifts[i]} and added a bow!`);
     }
@@ -9,4 +9,4 @@ function wrapGifts(gifts) {
     return gifts;
 }
 
-function tailsNeverFails(){}
+function tailsNeverFails(gifts){}
