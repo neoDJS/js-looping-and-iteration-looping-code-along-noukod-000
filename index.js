@@ -14,7 +14,7 @@ function maybeTrue() {
 }
 
 function tailsNeverFails(gifts){
-  let countdown = 0;
+  let count = 0;
   while (maybeTrue()) {
     console.log('And I ran... I ran so far away!');
   }
