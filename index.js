@@ -13,7 +13,7 @@ function maybeTrue() {
     return Math.random() >= 0.5;
 }
 
-function tailsNeverFails(gifts){
+function tailsNeverFails(){
   let count = 0;
   while (maybeTrue()) {
     count++;
